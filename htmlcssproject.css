@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #f9c265;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    border-bottom: 1px solid black;
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+header div button {
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hero {
+    background-color: #f9c265;
+}
+
+.hero p {
+    color: black;
+}  
+
+.hero .hero-top {
+    padding: 50px 200px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.hero .hero-top .hero-top-left {
+    font-size: 40px;
+    width: 400px;
+    line-height: 1.5;
+
+}
+
+.hero .hero-top .hero-top-left span {
+    background-color: black;
+    color: #f9c265;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.hero .hero-top .hero-top-right {
+    max-width: 400px;
+    position: absolute;
+    right: 200px;
+}
+
+.hero .hero-top .hero-top-right button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+
+.hero .hero-bottom img {
+    width: 100%;
+}
+
+.stats {
+    padding: 100px 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: center;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats p {
+    font-size: 14px;
+    color: gray;
+    padding-top: 5px;
+}
+
+.features .features-top {
+    background-color: #fdf6e4;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .features-top .features-top-left-side img {
+    width: 600px;
+}
+
+.features .features-top .features-top-right-side {
+
+    max-width: 400px;
+
+}
+
+.features .features-top .features-top-right-side h1 {
+    font-size: 40px;
+}
+
+.features .features-top .features-top-right-side h1 span {
+    background-color: #f9c265;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.features .features-top .features-top-right-side p {
+    padding-top: 5px;
+    color: gray;
+}
+
+.features-section {
+    padding: 100px 0;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.features-header {
+    width: 500px;
+    height: 400p2;
+    background-color: #1c1c1c;
+    color: white;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin-bottom: 50px;
+}
+
+.features-header h2 {
+    font-size: 2rem;
+    color: #ffcc66;
+    font-weight: 500;
+}
+
+.features-header h3 {
+    font-size: 2.3rem;
+    margin: 10px 0;
+}
+
+.features-header button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #ffcc66;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.features-header button:hover {
+    background-color: #e6b74f;
+}
+
+.features-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: #fdfdfd;
+    width: 250px;
+    height: 200px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.courses {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 100px 250px;
+}
+
+.courses h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.courses h2 span {
+    color: #e6b74f;
+    border: 1.5px solid #e6b74f;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.courses .courses-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.courses .courses-grid .course {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.courses .courses-grid .course h3 {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.courses .courses-grid .course img {
+    width: 250px;
+    height: 220px;
+}
+
+.courses .courses-grid .course .course-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    color: #555;
+    padding-top: 10px;
+}
+
+.courses .courses-grid .course button {
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.courses .courses-grid .course button:hover {
+    background-color: #f9c265;
+}
+
+.start {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start .start-content {
+    padding-right: 50px;
+}
+
+.start .start-content h2 {
+    font-size: 40px;
+    padding: 50px 0;
+    line-height: 1.5;
+}
+
+.start .start-content p {
+    color: #555;
+    font-size: 17px;
+}
+
+.start .start-content h2 span {
+    background-color: #f9c265;
+    padding: 5px 10px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+
+}
+
+.start .start-content ul {
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.start .start-content ul li {
+    padding: 7px;
+}
+
+.start img {
+    width: 900px;
+}
+
+.two-colors {
+    background: linear-gradient(to bottom, #ffffff 20%, #fdf6e4 80%);
+
+}
+
+.two-colors .get-started {
+    margin: 0 100px;
+    background-color: #f9c265;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-colors .get-started img {
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 700px;
+}
+
+.two-colors .get-started .get-started-content {
+    padding: 100px;
+
+}
+
+.two-colors .get-started .get-started-content h3 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.two-colors .get-started .get-started-content button {
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #f9c265;
+    margin: 20px 0;
+    border: none;
+}
+
+.mobile {
+    background-color: #fdf6e4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.mobile h2 {
+    font-size: 50px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+.mobile h2 span {
+    background-color: #f9c265;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 3px 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 70px 50px 40px 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+footer .footer-top {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+footer .footer-top a,
+p {
+    display: block;
+    color: #8b8b8b;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+footer .footer-top a:hover {
+    color: white;
+}
+
+footer .footer-top h3 {
+    padding-bottom: 10px;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
