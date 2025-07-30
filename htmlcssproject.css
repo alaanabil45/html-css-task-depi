@@ -29,6 +29,12 @@ header div a {
     text-decoration: none;
     color: black;
     margin-right: 20px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+header div a:hover {
+    border-bottom: 1px solid black;
 }
 
 header div button {
@@ -37,6 +43,12 @@ header div button {
     border: 1.5px solid black;
     padding: 10px;
     border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+header div button:hover {
+    background-color: #f9c265;
+    color: black;
 }
 
 .hero {
@@ -81,6 +93,13 @@ header div button {
     background-color: transparent;
     border: 1.5px solid black;
     border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero .hero-top .hero-top-right button:hover {
+    background-color: black;
+    color: #f9c265;
 }
 
 .hero .hero-bottom img {
@@ -363,6 +382,15 @@ header div button {
     color: #f9c265;
     margin: 20px 0;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.two-colors .get-started .get-started-content button:hover {
+    background-color: #f9c265;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 50px;
 }
 
 .mobile {
