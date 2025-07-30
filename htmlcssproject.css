@@ -44,6 +44,7 @@ header div button {
     padding: 10px;
     border-radius: 20px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 header div button:hover {
