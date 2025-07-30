@@ -45,7 +45,7 @@ header div button {
 
 .hero p {
     color: black;
-}  
+}
 
 .hero .hero-top {
     padding: 50px 200px;
@@ -420,4 +420,133 @@ footer .footer-top h3 {
 footer .footer-bottom {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 10px 40px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero .hero-top {
+        flex-direction: column;
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    .hero .hero-top .hero-top-left,
+    .hero .hero-top .hero-top-right {
+        width: 100%;
+        position: static;
+    }
+
+    .features .features-top {
+        flex-direction: column;
+        gap: 40px;
+        padding: 50px 40px;
+    }
+
+    .features .features-top .features-top-left-side img {
+        width: 100%;
+    }
+
+    .courses {
+        padding: 80px 40px;
+    }
+
+    .courses .courses-grid {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .start {
+        flex-direction: column;
+        padding: 50px 40px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .start .start-content {
+        padding: 0;
+    }
+
+    .start img {
+        width: 100%;
+    }
+
+    .two-colors .get-started {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .two-colors .get-started img {
+        width: 100%;
+        border-radius: 40px 40px 0 0;
+    }
+
+    .two-colors .get-started .get-started-content {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    footer .footer-top {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .hero .hero-top-left h1 {
+        font-size: 30px;
+    }
+
+    .features-header {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .courses .courses-grid {
+        justify-content: center;
+    }
+
+    .mobile h2 {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .card,
+    .courses .courses-grid .course {
+        width: 100%;
+    }
+
+    .courses .courses-grid .course img {
+        width: 100%;
+        height: auto;
+    }
+
+    .features-header h2,
+    .features-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .two-colors .get-started-content h3 {
+        font-size: 24px;
+    }
+
+    footer .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
 }
